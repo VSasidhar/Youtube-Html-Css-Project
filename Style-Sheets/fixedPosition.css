@@ -1,0 +1,76 @@
+body{
+    height: 3000px;
+}
+
+.sidebar-right{
+    background-color: rgb(75, 149, 36);
+    color: white;
+    position: fixed;
+    width: 100px;
+    right: 0px;
+    top:0px;
+    bottom:0px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.header{
+    position:fixed;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+.profilePic{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+  }
+
+.catname{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+button{
+    font-size: 14px;
+    padding-top: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+}
+
+button[name="Message"]{
+    background-color: rgb(243, 243, 243);
+    color:black;
+    font-weight: bold;
+    margin-right: 10px;
+   
+}
+
+button[name="Add_Friend"]{
+    background-color: rgb(67, 112, 196);
+    color:white;
+    content: normal;
+    object-fit: cover;
+    
+}
+
+
+

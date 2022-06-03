@@ -1,0 +1,15 @@
+.class_ProfilePic{
+    width: 50px;
+    border-radius: 25px;
+   align-items: right;
+
+}
+
+.profilepic{
+    width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}

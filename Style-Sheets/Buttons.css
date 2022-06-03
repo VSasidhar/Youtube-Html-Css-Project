@@ -1,0 +1,189 @@
+
+  button#button-tweet {
+
+  text-align: center;
+  background-color: aqua;
+  border: none;
+  margin: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: white;
+  font-weight: bold;
+  border-radius: 22px;
+  cursor: pointer;
+  font-family: Arial;
+  }
+
+  button#subscribeButton {
+
+    text-align: center;
+    background-color: rgb(217, 40, 43);
+    border: none;
+    margin: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: Arial;
+    transition: opacity 1s;
+    
+  }
+
+  button#subscribeButton:hover{
+    opacity: .75;
+
+
+  }
+
+  button#subscribeButton:active{
+    opacity: .35;
+  }
+
+  button.Join-Button{
+
+    text-align: center;
+    background-color:white;
+    border-color: rgba(16, 103, 233, 0.938);
+    border-width: 1px;
+    margin: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    color: rgba(16, 103, 233, 0.938);
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Arial;
+    transition: background-color 1s, color .25s;
+    
+  }
+
+  button.Join-Button:hover{
+   background-color: rgba(16, 103, 233, 0.938);
+   color: white;
+  }
+
+  #button-Request-Now{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+  }
+
+  button[name="button-Save"]{background-color: white;
+    border-color: rgba(10,102,194);
+    border-width: 1px;
+    border-radius:25px;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-top:8px;
+    padding-bottom:8px;
+    color:rgba(10,102,194);
+    font-weight: bold;
+    font-size: 18px;
+
+  }
+
+  button#button-Apply-on-company-website{
+
+    background-color:rgba(10,102,194) ;
+    color:white;
+    border:none;
+    border-radius:20px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left: 0px;
+    margin-top: 40px;
+
+
+  }
+
+  button#button-AddtoCart{
+
+    background-color:rgba(255,216,20) ;
+    color:black;
+    border:none;
+    border-radius:20px;
+    font-size: 14px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+  }
+  button#button-SingUp{
+    color:white;
+    border:none;
+    background-color:rgba(46,164,70) ;
+    border-radius:5px;
+    font-size: 14px;
+    padding-left:25px;
+    padding-right: 25px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    font-weight: bold;
+  }
+
+  button#button-GetStarted{
+    color:white;
+    border:none;
+    background-color:rgba(121,82,179) ;
+    border-radius:5px;
+    font-size: 14px;
+    padding-left:18px;
+    padding-right: 18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    font-weight: bold;
+    margin-right:8px;
+    margin-left: none;
+    margin-top: 40px;
+  }
+
+  button#button-Download{
+    color:rgba(108,117,125);
+    background-color:white ;
+    font-size: 14px;
+    padding-left:18px;
+    padding-right: 18px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: rgba(108,117,125);
+    border-style: solid;
+    box-shadow: none;
+    margin-right:40px;
+  }
+
+  .button_join{
+    width: 60px;
+    background-color:rgb(78, 205, 255);
+    color:white;
+    border-radius:20px;
+    border: none;
+    height: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    vertical-align: middle;
+    
+  }
+
+
+

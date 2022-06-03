@@ -1,0 +1,101 @@
+.Search-textBox{
+    font-size: 16px;
+  width: 500px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Search-google{
+  font-size: 16px;
+  width: 500px;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 30px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.Search-google::placeholder{
+    color: rgb(127, 129, 129);
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 600px;
+}
+.Search-textBox::placeholder{
+    color: rgb(87, 89, 89);
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 600px;
+}
+
+p{
+  font-family: Arial;
+  color: rgb(100, 100, 100);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.label-Email{
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+
+.textbox{
+    border-style: solid;
+    border-color: rgb(101, 99, 99);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 400px;
+    border-width: 1.5px;
+    height: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+
+}
+
+
+.text-termsandconditions{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.button-agree{
+  padding-top: 16px;
+  background-color: rgb(24, 107, 179);
+  width: 400px;
+  height: 42px;
+  border-radius: 30px;
+  border:none;
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  padding-bottom: 16px;
+
+}
+
+#Searchbox{
+    border-style: none;
+    width: 250px;
+    border-width: 1.5px;
+    height: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+#Searchbox::placeholder{
+  color: rgb(114, 111, 111);
+}
+

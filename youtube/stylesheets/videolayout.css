@@ -1,0 +1,122 @@
+
+body{
+    font-family: Roboto, Arial;
+    display: block;
+    margin: 0px;
+    padding-top: 90px;
+    padding-left: 265px;
+    Padding-right: 15px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 25px;
+    row-gap: 10px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+@media (min-width:1000px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+    }
+}
+
+@media (min-width:751px) and (max-width:999px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-right: 10px;
+        
+    }
+}
+
+@media  (min-width:601px) and (max-width:750px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+
+@media (max-width:600px) {
+    .video-grid{
+        grid-template-columns: 1fr ;
+        
+    }
+}
+
+.video-Preview{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+ .thumbnail-row{
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+    
+ }
+ .video-time{
+     position: absolute;
+     bottom: 10px;
+     right: 8px;
+     color: white;
+     background-color: black;
+     font-size: 12px;
+ }
+
+ .thumbnail{
+     width: 100%;
+     cursor: pointer;
+ }
+
+ .channel-picture{
+    width: 60px;
+    margin-left: 0px;
+    vertical-align: top;
+ }
+
+ .profilePic{
+     width: 100%;
+     border-radius: 50%;
+     cursor: pointer;
+    
+ }
+ .video-details-grid{
+    display: flex;
+    column-gap: 10px;
+    margin-left: 20px;
+    margin: 0px 0px 0px 0px ;
+    height: 100%;
+}
+
+ .video-title{
+     font-size: 14px;
+     font-weight: 500px;
+     margin-top: 0px;
+     margin-bottom: 10px;
+     cursor: pointer;
+ }
+ 
+
+ .video-author, .video_stats{
+    color: rgb(113, 113, 113);
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    
+}
+ .video-info{
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+    margin: 0px 0px 0px 0px;
+}
+
+ 
+
+ 

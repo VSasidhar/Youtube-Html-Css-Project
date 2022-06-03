@@ -1,0 +1,41 @@
+input{
+    width: 400px;
+    font-size: 14px;
+    background-color: rgba(240, 237, 237, 0.837);
+    padding-left: 10px;
+    border: none;
+    height: 30px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[name='enterDropLocation']{
+    margin-bottom: 20px;
+  
+}
+
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    font-size: 14px; 
+    border:none;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+#request_now{
+    background-color: black;
+    color:white;
+    margin-right: 10px;
+
+}
+
+button#scheduleLater{
+    color: black;
+    background-color: rgba(240, 237, 237, 0.837);
+}

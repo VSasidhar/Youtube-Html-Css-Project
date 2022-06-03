@@ -1,0 +1,53 @@
+#google_searchBox {
+    width: 400px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+
+div {
+    vertical-align: middle;
+    align-items: center;
+    display: flexbox;
+    text-align: center;
+}
+
+#google_logo {
+    padding-left: 70px;
+    width: 200px;
+    margin-top: 250px;
+
+
+}
+
+button {
+
+    width: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+    font-weight: bold;
+
+}
+
+div.button_align {
+    display: block;
+    margin-left: 70px;
+}
+
+button#google_imFeelingLucky{
+    margin-left:10px
+}
+
+.google_SeachIcon{
+    margin-left: 400px;
+}
